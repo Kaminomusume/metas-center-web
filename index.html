@@ -15,8 +15,8 @@
     :root {
       --primary-teal: #06777e;
       --primary-teal-dark: #045055;
-      --primary-teal-light: #0da4ad;
-      --accent-cyan: #38c8db;
+      --primary-teal-light: #00b4d8;
+      --accent-cyan: #00d4ff;
       --accent-purple: #7b62a6;
       --accent-purple-light: #9d82cb;
       --accent-purple-dark: #3a2254;
@@ -221,15 +221,16 @@
     }
 
     .brand-logo-container {
-      width: 48px;
-      height: 48px;
+      width: 50px;
+      height: 50px;
       border-radius: 50%;
-      background: #ffffff;
-      padding: 3px;
+      background: transparent;
+      padding: 0;
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 0 16px var(--shadow-teal);
+      box-shadow: 0 0 18px rgba(0, 212, 255, 0.45);
+      border: 1px solid rgba(0, 212, 255, 0.3);
     }
 
     .brand-logo-container img {
@@ -835,7 +836,7 @@
         </div>
         <div class="brand-text">
           <span class="brand-title">Metas <span>Center</span></span>
-          <span class="brand-sub">Asesoría Académica • Panamá</span>
+          <span class="brand-sub">Asesoría y Desarrollo • Panamá</span>
         </div>
       </a>
 
@@ -851,7 +852,7 @@
         <a href="#audiovisual-ia" onclick="closeMenu()">Producción con IA</a>
         <a href="#garantias" onclick="closeMenu()">Condiciones & Pagos</a>
         <a href="#cotizar" onclick="closeMenu()">Cotizador</a>
-        <a href="https://www.instagram.com/metascenter/?hl=es-la" target="_blank" rel="noopener noreferrer" onclick="closeMenu()">Instagram </a>
+        <a href="https://www.instagram.com/metascenter/?hl=es-la" target="_blank" rel="noopener noreferrer" onclick="closeMenu()">Instagram (@metascenter)</a>
         <a href="#" onclick="closeMenu(); window.open(waLink('Hola Metas Center, deseo cotizar una asesoría.'), '_blank')" class="btn-wa-header">
           <span>WhatsApp Directo 💬</span>
         </a>
